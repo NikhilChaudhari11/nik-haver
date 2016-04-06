@@ -6,7 +6,7 @@ a
 string 
 
 
-my name is nikhil 
+
 this is a batch file command
      trimmed?
 
