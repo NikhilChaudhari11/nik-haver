@@ -1,0 +1,265 @@
+series S948D=@nan(S948D(-1)+(S948D(-1)*(S948DP/100)),100)
+series S948D=@recode(S948D=100,NA,S948D)
+
+'Rebase to 2014=100
+series S948DB=@mean(S948D, "2014:01 2014:12")
+series S948D=(S948D/S948DB)*100
+series S948D=@round(S948D*1000)/1000
+'-------------------------
+series S948DN=@nan(S948DN(-1)+(S948DN(-1)*(S948DNP/100)),100)
+series S948DN=@recode(S948DN=100,NA,S948DN)
+
+'Rebase to 2014=100
+series S948DNB=@mean(S948DN, "2014:01 2014:12")
+series S948DN=(S948DN/S948DNB)*100
+series S948DN=@round(S948DN*1000)/1000
+'-------------------------
+series S948DNL=@nan(S948DNL(-1)+(S948DNL(-1)*(S948DNLP/100)),100)
+series S948DNL=@recode(S948DNL=100,NA,S948DNL)
+
+'Rebase to 2014=100
+series S948DNLB=@mean(S948DNL, "2014:01 2014:12")
+series S948DNL=(S948DNL/S948DNLB)*100
+series S948DNL=@round(S948DNL*1000)/1000
+'-------------------------
+series S948DNN=@nan(S948DNN(-1)+(S948DNN(-1)*(S948DNNP/100)),100)
+series S948DNN=@recode(S948DNN=100,NA,S948DNN)
+
+'Rebase to 2014=100
+series S948DNNB=@mean(S948DNN, "2014:01 2014:12")
+series S948DNN=(S948DNN/S948DNNB)*100
+series S948DNN=@round(S948DNN*1000)/1000
+'-------------------------
+series S948DNM=@nan(S948DNM(-1)+(S948DNM(-1)*(S948DNMP/100)),100)
+series S948DNM=@recode(S948DNM=100,NA,S948DNM)
+
+'Rebase to 2014=100
+series S948DNMB=@mean(S948DNM, "2014:01 2014:12")
+series S948DNM=(S948DNM/S948DNMB)*100
+series S948DNM=@round(S948DNM*1000)/1000
+'-------------------------
+series S948DNH=@nan(S948DNH(-1)+(S948DNH(-1)*(S948DNHP/100)),100)
+series S948DNH=@recode(S948DNH=100,NA,S948DNH)
+
+'Rebase to 2014=100
+series S948DNHB=@mean(S948DNH, "2014:01 2014:12")
+series S948DNH=(S948DNH/S948DNHB)*100
+series S948DNH=@round(S948DNH*1000)/1000
+'-------------------------
+series S948DM=@nan(S948DM(-1)+(S948DM(-1)*(S948DMP/100)),100)
+series S948DM=@recode(S948DM=100,NA,S948DM)
+
+'Rebase to 2014=100
+series S948DMB=@mean(S948DM, "2014:01 2014:12")
+series S948DM=(S948DM/S948DMB)*100
+series S948DM=@round(S948DM*1000)/1000
+'-------------------------
+series S948DMF=@nan(S948DMF(-1)+(S948DMF(-1)*(S948DMFP/100)),100)
+series S948DMF=@recode(S948DMF=100,NA,S948DMF)
+
+'Rebase to 2014=100
+series S948DMFB=@mean(S948DMF, "2014:01 2014:12")
+series S948DMF=(S948DMF/S948DMFB)*100
+series S948DMF=@round(S948DMF*1000)/1000
+'-------------------------
+series S948DF1=@nan(S948DF1(-1)+(S948DF1(-1)*(S948DF1P/100)),100)
+series S948DF1=@recode(S948DF1=100,NA,S948DF1)
+
+'Rebase to 2014=100
+series S948DF1B=@mean(S948DF1, "2014:01 2014:12")
+series S948DF1=(S948DF1/S948DF1B)*100
+series S948DF1=@round(S948DF1*1000)/1000
+'-------------------------
+series S948DFD=@nan(S948DFD(-1)+(S948DFD(-1)*(S948DFDP/100)),100)
+series S948DFD=@recode(S948DFD=100,NA,S948DFD)
+
+'Rebase to 2014=100
+series S948DFDB=@mean(S948DFD, "2014:01 2014:12")
+series S948DFD=(S948DFD/S948DFDB)*100
+series S948DFD=@round(S948DFD*1000)/1000
+'-------------------------
+series S948DFG=@nan(S948DFG(-1)+(S948DFG(-1)*(S948DFGP/100)),100)
+series S948DFG=@recode(S948DFG=100,NA,S948DFG)
+
+'Rebase to 2014=100
+series S948DFGB=@mean(S948DFG, "2014:01 2014:12")
+series S948DFG=(S948DFG/S948DFGB)*100
+series S948DFG=@round(S948DFG*1000)/1000
+'-------------------------
+series S948DFH=@nan(S948DFH(-1)+(S948DFH(-1)*(S948DFHP/100)),100)
+series S948DFH=@recode(S948DFH=100,NA,S948DFH)
+
+'Rebase to 2014=100
+series S948DFHB=@mean(S948DFH, "2014:01 2014:12")
+series S948DFH=(S948DFH/S948DFHB)*100
+series S948DFH=@round(S948DFH*1000)/1000
+'-------------------------
+series S948DFB=@nan(S948DFB(-1)+(S948DFB(-1)*(S948DFBP/100)),100)
+series S948DFB=@recode(S948DFB=100,NA,S948DFB)
+
+'Rebase to 2014=100
+series S948DFBB=@mean(S948DFB, "2014:01 2014:12")
+series S948DFB=(S948DFB/S948DFBB)*100
+series S948DFB=@round(S948DFB*1000)/1000
+'-------------------------
+series S948DMQ=@nan(S948DMQ(-1)+(S948DMQ(-1)*(S948DMQP/100)),100)
+series S948DMQ=@recode(S948DMQ=100,NA,S948DMQ)
+
+'Rebase to 2014=100
+series S948DMQB=@mean(S948DMQ, "2014:01 2014:12")
+series S948DMQ=(S948DMQ/S948DMQB)*100
+series S948DMQ=@round(S948DMQ*1000)/1000
+'-------------------------
+series S948DTF=@nan(S948DTF(-1)+(S948DTF(-1)*(S948DTFP/100)),100)
+series S948DTF=@recode(S948DTF=100,NA,S948DTF)
+
+'Rebase to 2014=100
+series S948DTFB=@mean(S948DTF, "2014:01 2014:12")
+series S948DTF=(S948DTF/S948DTFB)*100
+series S948DTF=@round(S948DTF*1000)/1000
+'-------------------------
+series S948DLT=@nan(S948DLT(-1)+(S948DLT(-1)*(S948DLTP/100)),100)
+series S948DLT=@recode(S948DLT=100,NA,S948DLT)
+
+'Rebase to 2014=100
+series S948DLTB=@mean(S948DLT, "2014:01 2014:12")
+series S948DLT=(S948DLT/S948DLTB)*100
+series S948DLT=@round(S948DLT*1000)/1000
+'-------------------------
+series S948DWX=@nan(S948DWX(-1)+(S948DWX(-1)*(S948DWXP/100)),100)
+series S948DWX=@recode(S948DWX=100,NA,S948DWX)
+
+'Rebase to 2014=100
+series S948DWXB=@mean(S948DWX, "2014:01 2014:12")
+series S948DWX=(S948DWX/S948DWXB)*100
+series S948DWX=@round(S948DWX*1000)/1000
+'-------------------------
+series S948DBU=@nan(S948DBU(-1)+(S948DBU(-1)*(S948DBUP/100)),100)
+series S948DBU=@recode(S948DBU=100,NA,S948DBU)
+
+'Rebase to 2014=100
+series S948DBUB=@mean(S948DBU, "2014:01 2014:12")
+series S948DBU=(S948DBU/S948DBUB)*100
+series S948DBU=@round(S948DBU*1000)/1000
+'-------------------------
+series S948DBR=@nan(S948DBR(-1)+(S948DBR(-1)*(S948DBRP/100)),100)
+series S948DBR=@recode(S948DBR=100,NA,S948DBR)
+
+'Rebase to 2014=100
+series S948DBRB=@mean(S948DBR, "2014:01 2014:12")
+series S948DBR=(S948DBR/S948DBRB)*100
+series S948DBR=@round(S948DBR*1000)/1000
+'-------------------------
+series S948DDC=@nan(S948DDC(-1)+(S948DDC(-1)*(S948DDCP/100)),100)
+series S948DDC=@recode(S948DDC=100,NA,S948DDC)
+
+'Rebase to 2014=100
+series S948DDCB=@mean(S948DDC, "2014:01 2014:12")
+series S948DDC=(S948DDC/S948DDCB)*100
+series S948DDC=@round(S948DDC*1000)/1000
+'-------------------------
+series S948DMC=@nan(S948DMC(-1)+(S948DMC(-1)*(S948DMCP/100)),100)
+series S948DMC=@recode(S948DMC=100,NA,S948DMC)
+
+'Rebase to 2014=100
+series S948DMCB=@mean(S948DMC, "2014:01 2014:12")
+series S948DMC=(S948DMC/S948DMCB)*100
+series S948DMC=@round(S948DMC*1000)/1000
+'-------------------------
+series S948DMR=@nan(S948DMR(-1)+(S948DMR(-1)*(S948DMRP/100)),100)
+series S948DMR=@recode(S948DMR=100,NA,S948DMR)
+
+'Rebase to 2014=100
+series S948DMRB=@mean(S948DMR, "2014:01 2014:12")
+series S948DMR=(S948DMR/S948DMRB)*100
+series S948DMR=@round(S948DMR*1000)/1000
+'-------------------------
+series S948DMN=@nan(S948DMN(-1)+(S948DMN(-1)*(S948DMNP/100)),100)
+series S948DMN=@recode(S948DMN=100,NA,S948DMN)
+
+'Rebase to 2014=100
+series S948DMNB=@mean(S948DMN, "2014:01 2014:12")
+series S948DMN=(S948DMN/S948DMNB)*100
+series S948DMN=@round(S948DMN*1000)/1000
+'-------------------------
+series S948DAB=@nan(S948DAB(-1)+(S948DAB(-1)*(S948DABP/100)),100)
+series S948DAB=@recode(S948DAB=100,NA,S948DAB)
+
+'Rebase to 2014=100
+series S948DABB=@mean(S948DAB, "2014:01 2014:12")
+series S948DAB=(S948DAB/S948DABB)*100
+series S948DAB=@round(S948DAB*1000)/1000
+'-------------------------
+series S948DFX=@nan(S948DFX(-1)+(S948DFX(-1)*(S948DFXP/100)),100)
+series S948DFX=@recode(S948DFX=100,NA,S948DFX)
+
+'Rebase to 2014=100
+series S948DFXB=@mean(S948DFX, "2014:01 2014:12")
+series S948DFX=(S948DFX/S948DFXB)*100
+series S948DFX=@round(S948DFX*1000)/1000
+'-------------------------
+series S948DEC=@nan(S948DEC(-1)+(S948DEC(-1)*(S948DECP/100)),100)
+series S948DEC=@recode(S948DEC=100,NA,S948DEC)
+
+'Rebase to 2014=100
+series S948DECB=@mean(S948DEC, "2014:01 2014:12")
+series S948DEC=(S948DEC/S948DECB)*100
+series S948DEC=@round(S948DEC*1000)/1000
+'-------------------------
+series S948DEX=@nan(S948DEX(-1)+(S948DEX(-1)*(S948DEXP/100)),100)
+series S948DEX=@recode(S948DEX=100,NA,S948DEX)
+
+'Rebase to 2014=100
+series S948DEXB=@mean(S948DEX, "2014:01 2014:12")
+series S948DEX=(S948DEX/S948DEXB)*100
+series S948DEX=@round(S948DEX*1000)/1000
+'-------------------------
+series S948DEM=@nan(S948DEM(-1)+(S948DEM(-1)*(S948DEMP/100)),100)
+series S948DEM=@recode(S948DEM=100,NA,S948DEM)
+
+'Rebase to 2014=100
+series S948DEMB=@mean(S948DEM, "2014:01 2014:12")
+series S948DEM=(S948DEM/S948DEMB)*100
+series S948DEM=@round(S948DEM*1000)/1000
+'-------------------------
+series S948DSQ=@nan(S948DSQ(-1)+(S948DSQ(-1)*(S948DSQP/100)),100)
+series S948DSQ=@recode(S948DSQ=100,NA,S948DSQ)
+
+'Rebase to 2014=100
+series S948DSQB=@mean(S948DSQ, "2014:01 2014:12")
+series S948DSQ=(S948DSQ/S948DSQB)*100
+series S948DSQ=@round(S948DSQ*1000)/1000
+'-------------------------
+series S948DMO=@nan(S948DMO(-1)+(S948DMO(-1)*(S948DMOP/100)),100)
+series S948DMO=@recode(S948DMO=100,NA,S948DMO)
+
+'Rebase to 2014=100
+series S948DMOB=@mean(S948DMO, "2014:01 2014:12")
+series S948DMO=(S948DMO/S948DMOB)*100
+series S948DMO=@round(S948DMO*1000)/1000
+'-------------------------
+series S948DV=@nan(S948DV(-1)+(S948DV(-1)*(S948DVP/100)),100)
+series S948DV=@recode(S948DV=100,NA,S948DV)
+
+'Rebase to 2014=100
+series S948DVB=@mean(S948DV, "2014:01 2014:12")
+series S948DV=(S948DV/S948DVB)*100
+series S948DV=@round(S948DV*1000)/1000
+'-------------------------
+series S948DVU=@nan(S948DVU(-1)+(S948DVU(-1)*(S948DVUP/100)),100)
+series S948DVU=@recode(S948DVU=100,NA,S948DVU)
+
+'Rebase to 2014=100
+series S948DVUB=@mean(S948DVU, "2014:01 2014:12")
+series S948DVU=(S948DVU/S948DVUB)*100
+series S948DVU=@round(S948DVU*1000)/1000
+'-------------------------
+series S948DVC=@nan(S948DVC(-1)+(S948DVC(-1)*(S948DVCP/100)),100)
+series S948DVC=@recode(S948DVC=100,NA,S948DVC)
+
+'Rebase to 2014=100
+series S948DVCB=@mean(S948DVC, "2014:01 2014:12")
+series S948DVC=(S948DVC/S948DVCB)*100
+series S948DVC=@round(S948DVC*1000)/1000
+'-------------------------
+S948D S948DN S948DNL S948DNN S948DNM S948DNH S948DM S948DMF S948DF1 S948DFD S948DFG S948DFH S948DFB S948DMQ S948DTF S948DLT S948DWX S948DBU S948DBR S948DDC S948DMC S948DMR S948DMN S948DAB S948DFX S948DEC S948DEX S948DEM S948DSQ S948DMO S948DV S948DVU S948DVC 
