@@ -160,3 +160,5 @@ def rank(string):
 besturl = rank(whatsearch)
 print('---------------------------------------')
 print(besturl)
+
+# Edits
